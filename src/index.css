@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-body bg-white antialiased;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 64px;
+}
